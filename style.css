@@ -1,0 +1,131 @@
+body{
+   background-image:linear-gradient(to right,#e1e1e1 60%, #fff 40%); /*the background has two colors grey and white*/
+
+}
+*{/*this css will be applied universally to the page*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.header {
+    background-image: url('header.png');/*the header containing the logo and the navigation bar*/
+    background-size: cover; /*the cover property will allow us to use the image only within that element*/
+    background-position: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo{/*the logo is at the top left of the page*/
+    width: 100px;
+    height: auto;
+    margin: 0px;
+    margin-left: 13px;
+    padding:0px;
+    float: left top;/*specified the postion , where we want the logo to be placed*/
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'montserrat'; /*the mentioned font on the reference image*/
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+#text1{ 
+    padding-top: 70px;
+    font-size: 80px;
+    color: #1a516d;
+    font-weight: 800;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+    margin-left: 10px;
+    
+}
+#dotshape{/*the dots between the texts*/
+    margin: auto;
+    width: 150px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#text2{
+    font-size: 30px;
+    line-height: 81px;
+    color: #59b2e0;
+    font-weight: 600;
+    font-family: "Montserrat";
+    margin: 0%;
+    margin-left: 10px;
+}
+#description{
+    font-size: 20px;
+    color: #8b8a8a;
+    font-weight: 500;
+    font-family: "Montserrat";
+    margin-top: 0;
+    margin-left: 14px;
+    margin-bottom: 15px;
+}
+.readmorebtn { /*the button after the text*/
+    background-color: #34526b;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    margin: 15px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+#bgimg{ /*the background image*/
+width: 850px;
+float: right bottom;
+margin-right: 0;
+padding-right: 0;
+float: right;
+position: absolute;
+bottom: 0%;
+right: 0;
+z-index: -1; /*used this property as the image is positioned behind the footer elements*/
+}
+.footer {
+    background-image: url(Footer.png);/*used the image provided on the refrence , as it has different shades*/
+    color: #fff;
+    opacity: 60%; /*used to specify the transparency of the imge*/
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-right a {
+    margin-left: 15px;
+}
+
+.footer-right img {
+    height: 21px;
+    width: 19px;
+}
+
+.socialmedia{
+    float: right;
+    margin-right: 13px;
+}
